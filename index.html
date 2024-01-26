@@ -1,45 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Penguin Fashion</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penguin Fashion</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
   <header class="bg-rose-50">
     <!-- navbar style -->
-    <nav class="container flex content-normal justify-between mx-auto py-8">
-        <div>
-          <img class="w-56 h-8" src="/icons/logo.png" alt="">
-          
-        </div>
-        <div>
-          <ul class="flex gap-4 font-semibold">
-            <li>Home <a href=""></a></li>
-            <li>Products <a href=""></a></li>
-            <li>Contact <a href=""></a></li>
-            <li>About Us <a href=""></a></li>
-          </ul>
-        </div>
-        
+    <nav class="container flex content-normal justify-between align-center mx-auto py-8">
+      <div>
+        <img class="w-56 h-8" src="/icons/logo.png" alt="">
+
+      </div>
+      <div>
+        <ul class="flex gap-4 font-semibold">
+          <li>Home <a href=""></a></li>
+          <li>Products <a href=""></a></li>
+          <li>Contact <a href=""></a></li>
+          <li>About Us <a href=""></a></li>
+        </ul>
+      </div>
+
     </nav>
-    <div class="container flex gap-8  mx-auto ">
+    <div class="container md:flex justify-center align-center  gap-8  mx-auto px-3">
       <div class="space-y-3">
-        <h1 class="uppercase text-7xl py-10">be the panguins <br> of winter</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo distinctio itaque reiciendis voluptas ipsum doloribus?</p>
+        <h1 class="uppercase text-7xl py-10 font-bold"><span class="text-amber-400">be the panguins </span><br> of
+          winter</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo distinctio itaque reiciendis voluptas ipsum
+          doloribus?</p>
         <div class=" w-18">
           <button class="uppercase bg-gradient-to-r from-lime-400 to-lime-600 px-8 py-4 rounded font-bold ">
-          <img class="inline h-6" src="/icons/shopping-cart 1.png" alt=""> bye now</button>
+            <img class="inline h-6" src="/icons/shopping-cart 1.png" alt=""> Buy Now</button>
         </div>
-        
+
       </div>
-      <div class="mb-8">
-        <img src="/images/model.png" alt="">
+      <div class="mb-8 px-3">
+        <img class="w-75 md:100" src="/images/model.png" alt="">
       </div>
     </div>
   </header>
-  <main></main>
+  <!-- women jackets ----------    -->
+  <main>
+    <section class="container mx-auto mb-8">
+      <h1 class="text-4xl font-bold py-8">Women Jeckets</h1>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 justify-center align-center ">
+        <div class="space-y-3 bg-neutral-300 rounded-xl ">
+          <div class="w-80 bg-slate-200 mx-auto mt-8 rounded-xl">
+            <img class=" py-4 " src="/images/jacket-1.png" alt=" ">
+          </div>
+         
+          <h2 class="px-3 text-2xl font-semibold">Yellow Coat Jacket </h2>
+          <p class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo.</p>
+          <div class="flex gap-3">
+            <h3 class="text-3xl text-blue-600 font-semibold px-3">$234</h3>
+            <div class=" w-17 mb-6">
+              <button class=" uppercase bg-gradient-to-r from-lime-400 to-lime-600 px-8 py-4 rounded font-bold ">
+                <img class="inline h-6" src="/icons/shopping-cart 1.png" alt=""> Buy Now</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="space-y-3 bg-neutral-300  rounded-xl">
+          <div class="w-80 bg-slate-200 mx-auto mt-8 rounded-xl">
+            <img class=" py-4 " src="/images/jacket-2.png" alt=" ">
+          </div>
+          
+          <h2 class="px-3 text-2xl font-semibold">Ladies Jacket </h2>
+          <p class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo.</p>
+          <div class="flex gap-3">
+            <h3 class="px-3 text-3xl text-blue-600 font-semibold">$234</h3>
+            <div class=" w-17 mb-6">
+              <button class=" uppercase bg-gradient-to-r from-lime-400 to-lime-600 px-8 py-4 rounded font-bold ">
+                <img class="inline h-6" src="/icons/shopping-cart 1.png" alt=""> Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="space-y-3 bg-neutral-300  rounded-xl">
+          <div class="w-80 bg-slate-200 mx-auto mt-8 rounded-xl">
+            <img class=" py-4 " src="/images/jacket-3.png" alt=" ">
+          </div>
+          
+          <h2 class="text-2xl font-semibold px-3">Woman Leather Jacket </h2>
+          <p class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo.</p>
+          <div class="flex gap-3">
+            <h3 class="px-3 text-3xl text-blue-600 font-semibold">$234</h3>
+            <div class=" w-17 mb-6">
+              <button class="uppercase bg-gradient-to-r from-lime-400 to-lime-600 px-8 py-4 rounded font-bold ">
+                <img class="inline h-6" src="/icons/shopping-cart 1.png" alt=""> Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto mb-8">
+      <h1 class="text-4xl font-bold py-8">Men Jeckets</h1>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 justify-center align-center ">
+        <div class="space-y-3 bg-neutral-300 rounded-xl ">
+          <div class="w-80 bg-slate-200 mx-auto mt-8 rounded-xl">
+            <img class=" py-4 " src="/images/jacket-4.png" alt=" ">
+          </div>
+         
+          <h2 class="px-3 text-2xl font-semibold">Snowboard Jacket Mens </h2>
+          <p class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo.</p>
+          <div class="flex gap-3">
+            <h3 class="text-3xl text-blue-600 font-semibold px-3">$234</h3>
+            <div class=" w-17 mb-6">
+              <button class=" uppercase bg-gradient-to-r from-lime-400 to-lime-600 px-8 py-4 rounded font-bold ">
+                <img class="inline h-6" src="/icons/shopping-cart 1.png" alt=""> Buy Now</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="space-y-3 bg-neutral-300  rounded-xl">
+          <div class="w-80 bg-slate-200 mx-auto mt-8 rounded-xl">
+            <img class=" py-4 " src="/images/jacket-5.png" alt=" ">
+          </div>
+          
+          <h2 class="px-3 text-2xl font-semibold">Man Leather Jackets </h2>
+          <p class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo.</p>
+          <div class="flex gap-3">
+            <h3 class="px-3 text-3xl text-blue-600 font-semibold">$234</h3>
+            <div class=" w-17 mb-6">
+              <button class=" uppercase bg-gradient-to-r from-lime-400 to-lime-600 px-8 py-4 rounded font-bold ">
+                <img class="inline h-6" src="/icons/shopping-cart 1.png" alt=""> Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="space-y-3 bg-neutral-300  rounded-xl">
+          <div class="w-80 bg-slate-200 mx-auto mt-8 rounded-xl">
+            <img class=" py-4 " src="/images/jacket-6.png" alt=" ">
+          </div>
+          
+          <h2 class="text-2xl font-semibold px-3">Man Casual Jackets </h2>
+          <p class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quo.</p>
+          <div class="flex gap-3">
+            <h3 class="px-3 text-3xl text-blue-600 font-semibold">$234</h3>
+            <div class=" w-17 mb-6">
+              <button class="uppercase bg-gradient-to-r from-lime-400 to-lime-600 px-8 py-4 rounded font-bold ">
+                <img class="inline h-6" src="/icons/shopping-cart 1.png" alt=""> Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
 </body>
+
 </html>
